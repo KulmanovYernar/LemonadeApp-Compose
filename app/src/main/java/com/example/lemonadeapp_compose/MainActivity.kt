@@ -143,9 +143,6 @@ fun LemonTextAndImage(
     onImageClick: () -> Unit,
     modifier: Modifier = Modifier
 ) {
-    Box(
-        modifier = Modifier
-    ) {
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
             verticalArrangement = Arrangement.Center,
@@ -174,7 +171,7 @@ fun LemonTextAndImage(
 
         }
     }
-}
+
 
 @Preview(showBackground = true)
 @Composable
