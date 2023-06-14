@@ -159,7 +159,7 @@ fun LemonTextAndImage(
             ) {
                 Image(
                     painter = painterResource(id = imageId), contentDescription = stringResource(
-                        id = descriptionId
+                        id = textLabelId
                     ), modifier = Modifier
                         .width(128.dp)
                         .height(160.dp)
